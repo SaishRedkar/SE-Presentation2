@@ -593,15 +593,131 @@
 
           - The new system is deployed to the users.
             - If the users like the changes, then feature-enhancement features are written by the prototyper and the new prototype is stowed away for later reference.
+            
             - If the users do not like the change, then the new features are scrapped.
 
           - Over time new changes are proposed and new feature-enhancement requests are generated. These changes are then taken into account and the developers start working on a new baseline system using conventional development practices.
             - Code from the throwaway (quick-and-dirty) prototype is never used in the production code.
           ---
-
-
+          <img src="img/operational_prototyping.png" width="700" height="550" align="middle" />
           
-
+          *src : "Operational Prototyping: A New Development Approach" by Alan Davis*
+          ---
+          ###<center>**Operational Prototyping Techniques**</center>
+          ___
+          ###Configuration Management
+          ___
+          
+          - Managing and controlling changes in software
+          
+          - Consists of 
+            - establishing standard naming convention for all parts of the software
+            
+            - regularly defining baselines
+            
+            - maintaining records to trace baseline changes over time
+            
+            - enforcing a set of rules to make sure that all change requests are submitted and implemented in an ordered fashion
+          ---
+          ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          
+          - Configuration management for operational prototypes and evolutionary prototypes is similar since OP uses EP as its base
+            - major s/w components are identified and controlled exclusively
+                
+            - baselines are created and the product is shipped as development progresses
+                
+            - problems are reported and change requests are sent to the review team
+                
+            - the configuration control board prioritizes and schedules changes for future releases
+                
+            - the change-control board takes decisions about how conflicts among changes should be resolved and their relative priorities
+                
+            - new products are then shipped after new changes are incorporated into them
+          ---
+          ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          ###Quality Assurance
+          ___
+          - Consists of a set of procedures to make sure that the product that is shipped meets the users standards and needs and is reliable
+            - includes quality reviews and inspection and setting of standards
+            
+          - different for evolutionary and throwaway aspects of operational prototyping
+            - for throwaway prototyping segment :  QA not required because prototypes are quick and dirty and not used again
+            
+            - for evolutionary prototyping : same set of procedures used as those use din fullo scale development
+            
+          ---
+           ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          ###Management Challenges
+          ___
+          
+          - ###*Retaining quality prototypers*
+            - prototypers must be willing and able to work for long periods
+            
+            - they must have good user rapport
+            
+            - they must have detailed knowledge of the application domain
+            
+            - they must possess extraordinary skills for developing quick-and-dirty prototypes
+          
+          ---
+          ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          
+          - ###*Not keeping throwaway prototypes in the field*
+            - It must be insisted that prototypers remove prototypes of the software from the production domain because of its unstability
+            
+            - Difficult to convince users that feel the need to retain features that they've grown fond of
+            
+          - ###*Not using patches in future versions*
+            - patches tested during prototyping must not be kept on the user site for long durations
+            
+            - difficult to convince users who think that since the patch works on their systems it shouldn't be altered
+            
+          ---
+          ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          
+          - ###*Selecting language*
+            - Languages that are easier to maintain make performing rapid development hard. Developers at crossroads because rapid prototyping needs both :
+                - different language from baseline : environment with multiple langauges becomes difficult to maintain
+                
+                - language that is not extreme on either end : moderate language makes rapid dev. moderately efficient, thus not achieving the actual goal of rapid prototyping
+          
+          - ###* Selecting architecture*
+            - chosen arch. must be resilient to constant change and be able to handle ever changing baselines      
+          
+          ---
+          ###<center>**Operational Prototyping Techniques (Contd.)**</center>
+          ___
+          
+          - ###*Working with widely dispersed personnel*
+            - prototypers who go on site to check users' needs and requirements must be able to function on their own and without any manegerial intervention.
+            
+            - this is important from the users' perspective
+            
+          - ###*Customer Satisfaction*
+            - aim to achieve long-term customer satisfaction
+            
+            - customers must be instilled with a sense of trust that changing or removing features are jsut temporary and that all their requirements will be addressed in the final product
+          
+          ---
+          ###<center>**Operational Prototyping Techniques (Summary)**</center>
+          ___
+          
+          - Operational prototyping offers best of both worlds - quick-and-dirty prototyping and conventional software development
+          
+          - Operational prototyping makes sure that all prototyping is done in a sensible manner
+          
+          - Operational prototypes work dynamically in all sorts of situations
+            - in contrast, throwaway prototyping works well only for relatively small, static problems
+            
+          
+       
+       
+       
        </textarea>
 		    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
 		    </script>
