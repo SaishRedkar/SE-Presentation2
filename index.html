@@ -347,94 +347,100 @@
             + This technique is based on a scene in the 1939 movie "Wizard of Oz".
 
             + A user sits on a system and interacts with a program. The software
-            designer, acting as the wizard behind the scenes, watches the user's action. By responding in different ways, the designer creates the illusion of a working software program. In some cases, the user is unaware that a person, is operating the system.  
+            designer, acting as the wizard behind the scenes, watches the user's action. By responding in different ways, the designer creates the illusion of a working software program. In some cases, the user is unaware that a person, is operating the system.
 
           ---
 
           ##<center>** On-line Prototyping Techniques**</center>
           ___
+          <p style='text-align: justify;'>
 
+            The basic idea behind the prototyping approach is to be able to develop a prototype of a
+            system as quickly as possible. This allows feedback from all stakeholders to be given early in the software process.
+          </p>
 
-          The basic idea behind the prototyping approach is to be able to develop a prototype
-          of a system as quickly as possible. This allows feedback from all stakeholders to
-          be given early in the software process.
+            The major on-line prototyping techniques are -
 
-          The major on-line prototyping techniques are -
+            - Executable specification languages
 
-          - Executable specification languages
+            - Very high-level languages
 
-          - Very high-level languages
+            - Composition of reusable components
 
-          - Composition of reusable components
+            - Fourth-generation languages
 
-          - Fourth-generation languages
-
-          The above mentioned techniques can be used in combinations. Some part of the software
-          system may use one technique while some other part could be done more efficiently using
-          some other technique.
-
+          <p style='text-align: justify;'>
+            The above mentioned techniques can be used in combinations. Some part of the software
+            system may use one technique while some other part could be done more efficiently using
+            some other technique.
+          </p>
           ---
           ### 1. Executable Specification Techniques
           ___
 
+          <p style='text-align: justify;'>
+            Using a formal specification to develop a prototype is useful as it combines unambiguous specification
+            with a prototype. But when this is applied practically, there are many constraints -
+          </p>
 
-          Using a formal specification to develop a prototype is useful as it combines unambiguous
-          specification with a prototype. But when this is applied practically, there are many
-          constraints -
+            - Graphical user interfaces are extremely difficult to prototype using this technique.
+          <p style='text-align: justify;'>
+            - Prototype development may not be very rapid to start with using this technique as it requires a detailed analysis
+            of the system, functions, and features that were rejected earlier and features which need to be included.
+          </p>
 
-          - Graphical user interfaces are extremely difficult to prototype using this technique. The
-
-          - Prototype development may not be very rapid to start withusing this technique as it requires
-          a detailed analysis of the system, functions, and features that were rejected earlier and features
-          which need to be included.
-
-          - Executable specifications mainly test only functional requirements.
+            - Executable specifications mainly test only functional requirements.
 
           ---
           ### 2. Very high-level languages
           ___
 
-          These  are generaally programming languages which have powerful data managament facilities and
-          efficient memories. However, dynamic languages of this genre are not used as they requirea large
-          run-time support system which in turn increases the storage that is required.
+          <p style='text-align: justify;'>
+            These  are generally programming languages which have powerful data managament facilities and efficient memories.
+            However, dynamic languages of this genre are not used as they require large run-time support system which in turn
+            increases the storage that is required.
+          </p>
+            Smalltalk is an object oriented programming language that is excellent for prototyping due to-
 
-          Smalltalk is an object oriented programming language that is excellent for prototyping due to-
+            - Rapid modifications of a Smalltalk system are possible without unforeseen effects on the rest of the system.
 
-          - Rapid modifications of a Smalltalk system are possible without unforeseen effects on the rest of
-          the system.
+            - All the objects defined in the environment are available to the programmer which helps in reusability.
 
-          - All the objects defined in the environment are available to the programmer which helps in reusability.
-
-          - Partial automation in the construction of user interfaces for interactive systems is supported in some
-          versions.
+            - Partial automation in the construction of user interfaces for interactive systems is supported in some versions.
           ---
           ### 2. Very high-level languages (contd.)
           ___
 
-          REFINE is a class of wide-spectrum programming languages used for prototyping.
-          A wide-spectrum language is a programming langauge which combines a number of paradigms. It may include
-          objects, imperative constructs and logic programming which are also provided separatelt by languages such as
-          Pascal, Lisp and Prolog.
+            REFINE is a class of wide-spectrum programming languages used for prototyping.
 
-          The mixed language support involves programming different parts of the system in different languages. A commication
-          framework needs to be estabilished between the different parts in this case.
-
-          The advantage of this approach is that for each part, the most appropriate language can be chosen which can speed up
-          prototype development.
-
-          The disadvantage is that it may be diffuclt to estabilish an interface which allows the communcation of multiple languages
-
+          <p style='text-align: justify;'>
+            A wide-spectrum language is a programming langauge which combines a number of paradigms. It may include
+            objects, imperative constructs and logic programming which are also provided separately by languages such as
+            Pascal, Lisp and Prolog.
+          </p>
+          <p style='text-align: justify;'>
+            The mixed language support involves programming different parts of the system in different languages. A communication
+            framework needs to be estabilished between the different parts in this case.
+          </p>
+          <p style='text-align: justify;'>
+            The advantage of this approach is that for each part, the most appropriate language can be chosen which can speed up
+            prototype development.
+          </p>
+          <p style='text-align: justify;'>
+            The disadvantage is that it may be diffuclt to estabilish an interface which allows the communcation of multiple languages.
+          </p>
           ---
           ### 3. Reusable Components
           ___
-
-          Reusable components are useful as they reduce the time taken to develop a prototype. Having a library of reusable components
-          and some mechanism to use them into the exisiting system leads to faster development. Another advantage is that they help in
-          reducing the overall costs.
-
-          The system specification has to take into account which of the reusable components are available.
-          Sometimes this approach is combined with other approaches such as using fourth-generation languages.
-
+          <p style='text-align: justify;'>
+            Reusable components are useful as they reduce the time taken to develop a prototype. Having a library of reusable components
+            and some mechanism to use them into the exisiting system leads to faster development. Another advantage is that they help in
+            reducing the overall costs.
+          </p>
+          <p style='text-align: justify;'>
+            The system specification has to take into account which of the reusable components are available. Sometimes this approach is
+            combined with other approaches such as using fourth-generation languages.
+          </p>
 
           <center><center>
           ![Reusable Components](img/Component reusability.PNG)
@@ -442,34 +448,38 @@
           ---
           ### 4. Fourth-generation languages
           ___
-
-          At their simplest, these languages could be database languages such as SQL. Since they are commonly used to develop business
-          systems, they may also include a package for a report genreator and a powerful interactive facility for application generation.
-
-          They rely on software reuse where common abstractions have been idenitifiedand parameterized.The programmer only needs to
-          describe how routines for database access and report production need to be tailored and controlled.
-
+          <p style='text-align: justify;'>
+            At their simplest, these languages could be database languages such as SQL. Since they are commonly used to develop business
+            systems, they may also include a package for a report generator and a powerful interactive facility for application generation.
+          </p>
+          <p style='text-align: justify;'>
+            They rely on software reuse where common abstractions have been idenitifiedand parameterized.The programmer only needs to
+            describe how routines for database access and report production need to be tailored and controlled.
+          </p >
           <center><center>
           ![Fourth-generation languages](img/Fourth generation languages.png)
 
           ---
           ### 4. Fourth-generation languages (contd.)
           ___
-
-          Systems using such languages are simpler to maintain as the developed application prototypes are smaller in this case compared to its
-          counterparts such as COBOL. For these smaller systems, it is also more cost-effective.
+          <p style='text-align: justify;'>
+            Systems using such languages are simpler to maintain as the developed application prototypes are smaller in this case compared to
+            its counterparts such as COBOL. For these smaller systems it is also more cost-effective.
+          </p>
 
           <u>**Disadvantages:**</u>
-          - These languages are slower compared to conventional programming languages and require much more memory.
-
-          - There is no standardization across fourth-generation languages. This could lead to higher costs due to having to rewrite a program.
-          In the long run, even though they could lead to lower development costs, the overall cost could be higher.
+            - These languages are slower compared to conventional programming languages and require much more memory.
+          <p style='text-align: justify;'>
+            - There is no standardization across fourth-generation languages. This could lead to higher costs due to having to rewrite a program.
+            In the long run, even though they could lead to lower development costs, the overall cost could be higher.
+          </p>
 
           <u>**Advantages:**</u>
-          - They are generally used along with CASE tools for development of small-medium sized systems. Using such systems has the advantage that
-          documentation is produced at the same time as the protoype system.
-
-          - The developed system should be more structured and easier to maintain.
+          <p style='text-align: justify;'>
+            - They are generally used along with CASE tools for development of small-medium sized systems. Using such systems has the advantage that
+            documentation is produced at the same time as the protoype system.
+          </p>
+            - The developed system should be more structured and easier to maintain.
 
           ---
 
@@ -481,70 +491,72 @@
           ---
           ##<center>**Introduction**</center>
           ___
-          The main goal of the evolutionary prototyping approach is to develop a
-          mature, efficient, reliable, cost-effective software system or a solution
-          through a series of prototyping iterations.
-
-          The prototype undergoes continuous iterations and gets refined at each iteration.
-          At each iteration, the implementation is handed over to the customer for their
-          feedback. Ultimately, what started out as the prototype should become the solution.
-
-          At each iteration, the system can be considered as first draft, second draft and
-          so on till the final version is ready. Evolutionary prototyping is useful in developing
-          systems where it is extremely difficult to establish a detailed system specification document.
-
+          <p style='text-align: justify;'>
+            The main goal of the evolutionary prototyping approach is to develop a mature, efficient, reliable, cost-effective software system
+            or a solution through a series of prototyping iterations.
+          <p style='text-align: justify;'>
+            The prototype undergoes continuous iterations and gets refined at each iteration. At each iteration, the implementation is handed
+            over to the customer for their feedback. Ultimately, what started out as the prototype should become the solution.
+          </p>
+          <p style='text-align: justify;'>
+            At each iteration, the system can be considered as first draft, second draft and so on till the final version is ready. Evolutionary
+            prototyping is useful in developing systems where it is extremely difficult to establish a detailed system specification document.
+          </p>
           ---
-          ##<center>**Approach of Evolutionary Prorotyping**</center>
+          ##<center>**Approach of Evolutionary Prototyping**</center>
           ___
-
-          An important factor that determines the success of this approach is the use of techniques and tools
-          which allow for rapid system iterations. The changes that are suggested by the customer need to be
-          incorporated and demonstrated again to the customer as quickly as possible. This can include the use
-          of high level programming languages for software development, special environments, integrated software
-          tools etc that can accelerate the developmen process.
-
-          One key differnce between Evolutionary prototyping and specification-based approaches is the verification
-          and validation. Verification is done by comparing the program, software system or solution to its
-          specifications. Without having a specification, verification cannot be done. Validation process is done
-          to ensure that the system is working as it is intended rather than its conformance to a speicifcation.
-
+          <p style='text-align: justify;'><p style='text-align: justify;'>
+            An important factor that determines the success of this approach is the use of techniques and tools which allow for rapid system iterations.
+            The changes that are suggested by the customer need to be incorporated and demonstrated again to the customer as quickly as possible.
+          </p>
+          <p style='text-align: justify;'>
+            This can include the use of high level programming languages for software development, special environments, integrated software tools etc,
+            that can accelerate the development process.
+          </p>
+          <p style='text-align: justify;'>
+            One key differnce between Evolutionary prototyping and specification-based approaches is the verification and validation. Verification is done
+            by comparing the program, software system or solution to its specifications. Without having a specification, verification cannot be done. Validation
+            process is done to ensure that the system is working as it is intended rather than its conformance to a speicifcation.
+          </p>
           ---
           ##<center>**Disadvantages**</center>
           ___
 
-          Trying to decide how adequate a system is difficult as it is not measurable. Human performance is
-          not always guaranteed to be correct but we are satisifed if performance is adequate for the current task.
+          <p style='text-align: justify;'>
+            Trying to decide how adequate a system is, is difficult as it is not measurable. Human performance is not always guaranteed to be correct but we are
+            satisifed if performance is adequate for the current task.
+          </p>
+          <p style='text-align: justify;'>
+            When it comes to developing systems that are expected to last a very long time, this could be a bigger problem. The main problems associated with
+            evolutionary prototyping are -
+          </p>
 
-          When it comes to developing systems that are expected to last a very long time, this could be a bigger
-          problem. The main problems associated with evolutionary prototyoing are -
+            - Prototypes usually develop so quickly that is not cost-effective to produce a great deal of system documentation and schedules.
 
-          - Prototypes usually develop so quickly that is not cost-effective to produce a great deal of system
-            documentation and schedules.
+            - Continuous changes to a system could lead to its corruption.
+          <p style='text-align: justify;'>
+            - Generally for such approaches, small teams of highly skilled and passionate individuals have been used effectively. But it is still not clear as to
+            what comprises the perfect team.
+          </p>
 
-          - Continuous changes to a system could lead to its corruption.
-
-          - Generally for such approaches, small teams of highly skilled and passionate individuals have been used
-            effectively. But it is still not clear as to what comprises the perfect team.
-
-          - It is difficult to set a budget and schedule.
+            - It is difficult to set a budget and schedule.
 
           ---
           ##<center>**Advantages**</center>
           ___
 
-          - Since prototypes are generally developed quickly to get customer feedback quickly, this approach
-          speeds up the delivery of the system. The changes suggested by the customer are implemented quickly
-           and effectively.
+            - The user is constantly involved with the team during the development of the software solution.
+          <p style='text-align: justify;'>
+            - Since prototypes are generally developed quickly to get customer feedback quickly, this approach speeds up the delivery of the system.
+            The changes suggested by the customer are implemented quickly and effectively.
+          </p>
+            - Constant customer interaction ensures that the end product meets user requirements as much as possible.
 
-          - The user is constantly involved with the team during the development of the software solution.
-
-          - Constant customer interaction ensures that the end prodcut meets user requirements as much as possible.
-
-          - There is constant refinement of the software product.
-
-          - Compared to Throwaway Prototyping, the prototypes developed using this approach are functional prototypes,
-           even though the developers may not have implemented all the features mentioned by the customer.
-
+            - There is constant refinement of the software product.
+          <p style='text-align: justify;'>
+            - Compared to Throwaway Prototyping, the prototypes developed using this approach are functional prototypes, even though the developers may not
+            have implemented all the features mentioned by the customer.
+          </p>
           ---
           ##<center>**Operational Prototyping**</center>
           ___
@@ -556,7 +568,8 @@
           - It involves identifying functions, processes, and design elements that can be customized, optimized, standardized, and replicated throughout the organization, including across multiple sites.
 
           - Evolutionary prototyping and throwaway protoryping on their own aren't acceptable.
-            - They both have their unique drawbacks that make them ineffective to be used on their own.
+
+          - They both have their unique drawbacks that make them ineffective to be used on their own.
 
           ---
           ##<center>**Operational Prototyping**</center>
@@ -600,7 +613,7 @@
           ---
 
 
-          
+
 
        </textarea>
 		    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
